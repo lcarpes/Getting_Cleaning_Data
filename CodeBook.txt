@@ -1,0 +1,187 @@
+Code Book
+
+For each record in the data set, it is provided:
+- Average and Average Value of the Standard Deviation of the triaxial Acceleration of the accelerometer 
+(total acceleration) and the estimated body acceleration.
+- Mean and mean values of the standard deviation of the angular velocity of the triaxial gyroscope.
+
+
+- A vector of 84 characteristics with mean and standard deviation of time domain and frequency.
+
+- The activity label.
+- An identifier of the subject who performed the experiment.
+
+
+- identifier of the subject who performed the experiment.
+Subject
+
+
+- Activities carried out, which may be:
+Activity
+
+WALKING,
+WALKING_UPSTAIRS,
+WALKING_DOWNSTAIRS,
+SEATED,
+STANDING
+LAYING
+
+
+Time domain signals
+
+- Mean value Time Body Acceleration 3-axial
+TimeBodyAcceleration-Mean()-X                                 
+TimeBodyAcceleration-Mean()-Y                                 
+TimeBodyAcceleration-Mean()-Z  
+
+- Mean Value Standard Deviation Time Body Acceleration 3-axial                     
+TimeBodyAcceleration-StandardDeviation()-X                    
+TimeBodyAcceleration-StandardDeviation()-Y                    
+TimeBodyAcceleration-StandardDeviation()-Z                    
+
+- Mean Value Time of Acceleration Gravity  3-axial
+TimeGravityAcceleration-Mean()-X                              
+TimeGravityAcceleration-Mean()-Y                              
+TimeGravityAcceleration-Mean()-Z  
+                           
+- Mean Value Standard Deviation Time Gravity Acceleration 3-axial 
+TimeGravityAcceleration-StandardDeviation()-X                 
+TimeGravityAcceleration-StandardDeviation()-Y                 
+TimeGravityAcceleration-StandardDeviation()-Z                 
+
+- Mean Value Time Body Acceleration Jerk 3-axial
+TimeBodyAccelerationJerk-Mean()-X                             
+TimeBodyAccelerationJerk-Mean()-Y                             
+TimeBodyAccelerationJerk-Mean()-Z 
+                  
+- Mean Value Standard Deviation Time Body Acceleration Jerk 3-axial           
+TimeBodyAccelerationJerk-StandardDeviation()-X                
+TimeBodyAccelerationJerk-StandardDeviation()-Y                
+TimeBodyAccelerationJerk-StandardDeviation()-Z  
+  
+            
+- Mean Value Time Body Gyroscope 3-axial
+TimeBodyGyroscope-Mean()-X                                    
+TimeBodyGyroscope-Mean()-Y                                    
+TimeBodyGyroscope-Mean()-Z              
+
+- Mean Value Standard Deviation Time Body Gyroscope 3-axial                       
+TimeBodyGyroscope-StandardDeviation()-X                       
+TimeBodyGyroscope-StandardDeviation()-Y                       
+TimeBodyGyroscope-StandardDeviation()-Z 
+  
+- Mean Value Time Body Gyroscope Jerk 3-axial                    
+TimeBodyGyroscopeJerk-Mean()-X                                
+TimeBodyGyroscopeJerk-Mean()-Y                                
+TimeBodyGyroscopeJerk-Mean()-Z   
+    
+- Mean Value Standard Deviation Time Body Gyroscope 3-axial                            
+TimeBodyGyroscopeJerk-StandardDeviation()-X                   
+TimeBodyGyroscopeJerk-StandardDeviation()-Y                   
+TimeBodyGyroscopeJerk-StandardDeviation()-Z  
+                
+- Mean Value Magnitude Time Body Acceleration
+TimeBodyAccelerationMagnitude-Mean() 
+                         
+TimeBodyAccelerationMagnitude-StandardDeviation() 
+      
+- Mean Value Magnitude Time  Acceleration Gravity      
+TimeGravityAccelerationMagnitude-Mean()   
+
+- Mean Value Standard Deviation Magnitude Time Acceleration Gravity 3-axial                     
+TimeGravityAccelerationMagnitude-StandardDeviation()
+          
+- Mean Value Magnitude Time Body Acceleration Jerk
+TimeBodyAccelerationJerkMagnitude-Mean()   
+
+- Mean Value Standard Deviation Magnitude Time Body Acceleration Jerk 3-axial                       
+TimeBodyAccelerationJerkMagnitude-StandardDeviation() 
+     
+- Mean Value Magnitude Time Body Gyroscope   
+TimeBodyGyroscopeMagnitude-Mean() 
+
+- Mean Value Standard Deviation Magnitude Time Body Gyroscope 3-axial                                
+TimeBodyGyroscopeMagnitude-StandardDeviation() 
+               
+- Mean Value of Magnitude Time Body Gyroscope Jerk
+TimeBodyGyroscopeJerkMagnitude-Mean() 
+
+- Mean Value Standard Deviation Magnitude Time Body Gyroscope Jerk 3-axial                          
+TimeBodyGyroscopeJerkMagnitude-StandardDeviation() 
+    
+
+Frequecy domain signals
+  
+- Mean value Frequecy Body Acceleration 3-axial     
+FrequencyBodyAcceleration-Mean()-X                            
+FrequencyBodyAcceleration-Mean()-Y                            
+FrequencyBodyAcceleration-Mean()-Z 
+ 
+- Mean Value Standard Deviation Frequency Body Acceleration 3-axial                                        
+FrequencyBodyAcceleration-StandardDeviation()-X               
+FrequencyBodyAcceleration-StandardDeviation()-Y               
+FrequencyBodyAcceleration-StandardDeviation()-Z 
+
+- Mean value Frequecy Body Acceleration 3-axial                
+FrequencyBodyAcceleration-MeanFreq()-X                        
+FrequencyBodyAcceleration-MeanFreq()-Y                        
+FrequencyBodyAcceleration-MeanFreq()-Z 
+
+- Mean value Frequecy Body Acceleration Jerk 3-axial                         
+FrequencyBodyAccelerationJerk-Mean()-X                        
+FrequencyBodyAccelerationJerk-Mean()-Y                        
+FrequencyBodyAccelerationJerk-Mean()-Z 
+  
+- Mean Value Standard Deviation Frequency Body Acceleration Jerk 3-axial                       
+FrequencyBodyAccelerationJerk-StandardDeviation()-X           
+FrequencyBodyAccelerationJerk-StandardDeviation()-Y           
+FrequencyBodyAccelerationJerk-StandardDeviation()-Z  
+   
+- Mean value Frequecy Body Acceleration Jerk 3-axial        
+FrequencyBodyAccelerationJerk-MeanFreq()-X                    
+FrequencyBodyAccelerationJerk-MeanFreq()-Y                    
+FrequencyBodyAccelerationJerk-MeanFreq()-Z 
+                   
+- Mean value Frequecy Body Gyroscope 3-axial  
+FrequencyBodyGyroscope-Mean()-X                               
+FrequencyBodyGyroscope-Mean()-Y                               
+FrequencyBodyGyroscope-Mean()-Z   
+  
+- Mean Value Standard Deviation Frequency Body Gyroscope 3-axial                            
+FrequencyBodyGyroscope-StandardDeviation()-X                  
+FrequencyBodyGyroscope-StandardDeviation()-Y                  
+FrequencyBodyGyroscope-StandardDeviation()-Z  
+ 
+- Mean Value Frequency Body Gyroscope 3-axial                 
+FrequencyBodyGyroscope-MeanFreq()-X                           
+FrequencyBodyGyroscope-MeanFreq()-Y                           
+FrequencyBodyGyroscope-MeanFreq()-Z  
+    
+- Mean Value Magnitude Frequency Body Acceleration 3-axial                        
+FrequencyBodyAccelerationMagnitude-Mean()                     
+FrequencyBodyAccelerationMagnitude-StandardDeviation()        
+FrequencyBodyAccelerationMagnitude-MeanFreq() 
+     
+- Mean Value Magnitude Frequency Body Acceleration Jerk 3-axial            
+FrequencyBodyBodyAccelerationJerkMagnitude-Mean()             
+FrequencyBodyBodyAccelerationJerkMagnitude-StandardDeviation()
+FrequencyBodyBodyAccelerationJerkMagnitude-MeanFreq() 
+   
+- Mean Value Magnitude Frequency Body Gyroscope 3-axial       
+FrequencyBodyBodyGyroscopeMagnitude-Mean()                    
+FrequencyBodyBodyGyroscopeMagnitude-StandardDeviation()       
+FrequencyBodyBodyGyroscopeMagnitude-MeanFreq() 
+  
+- Mean Value Magnitude Frequency Body Gyroscope Jerk 3-axial               
+FrequencyBodyBodyGyroscopeJerkMagnitude-Mean()                
+FrequencyBodyBodyGyroscopeJerkMagnitude-StandardDeviation()   
+FrequencyBodyBodyGyroscopeJerkMagnitude-MeanFreq() 
+      
+- Mean Value of angle between the vectors   
+angle(tBodyAccelerationMean,gravity)                          
+angle(tBodyAccelerationJerkMean),gravityMean)                 
+angle(tBodyGyroscopeMean,gravityMean)                         
+angle(tBodyGyroscopeJerkMean,gravityMean)  
+angle(X,gravityMean)                                          
+angle(Y,gravityMean)                                          
+angle(Z,gravityMean)   
